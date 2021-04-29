@@ -20,7 +20,7 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
 	<!-- favicon -->
-  <link rel="shortcut icon" href="/img/favicon.ico">
+  <link rel="shortcut icon" href="/img/logo1.ico">
 
   <!-- css -->
   
@@ -35,7 +35,7 @@
 <script>
     const CONFIG_BGIMAGE = {
       mode: 'normal',
-      normalSrc: '/img/header-bg.jpg',
+      normalSrc: '/img/header-bg1.jpg',
       randomYouMax: 110,
       randomYouSrc: 'https://Whiteboy-DY.github.io/Random-img/',
 	  randomOtherSrc: 'https://api.berryapi.net/?service=App.Bing.Images&day=-0',
@@ -187,7 +187,7 @@
 
 	
 
-		categories
+		<i class="fa fa-pencil-square-o">总计 1  分类</i>
 
 	
 	
@@ -195,13 +195,22 @@
 
 		
 
-			<div>
-				
+			<div class="category">
+				<ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/">前端框架</a><span class="category-list-count">1</span></li></ul>
 			</div>
 
 		
 	</div>
 
+	
+		<!-- 
+			ajax 查询相应标签or分类的文章 
+			We can use "Content filtering plugin" to instead ajax!
+		-->
+		<div class="TCP-container">
+			<div id="TCP-title"></div>
+			<div id="TCP-content"></div>
+		</div>
 	
 </div>
 
