@@ -1,0 +1,1010 @@
+<!--
+	作者：Sariay
+	时间：2018-08-26
+	描述：There may be a bug, but don't worry, Qiling(器灵) says that it can work normally! aha!
+-->
+<!DOCTYPE html>
+<html class="html-loading">
+		
+
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>
+    
+      SSM整合 | Sweet Home
+    
+  </title>
+  <meta name="author" content="Sariay">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+	<!-- favicon -->
+  <link rel="shortcut icon" href="/img/logo1.ico">
+
+  <!-- css -->
+  
+<link rel="stylesheet" href="/css/Annie.css">
+
+  
+  <!-- jquery -->
+	
+<script src="/plugin/jquery/jquery.min.js"></script>
+
+
+<script>
+    const CONFIG_BGIMAGE = {
+      mode: 'normal',
+      normalSrc: '/img/header-bg1.jpg',
+      randomYouMax: 110,
+      randomYouSrc: 'https://Whiteboy-DY.github.io/Random-img/',
+	  randomOtherSrc: 'https://api.berryapi.net/?service=App.Bing.Images&day=-0',
+	  preloaderEnable: true
+    }
+	
+    const CONFIG_LEACLOUD_COUNT = {
+      enable: false,
+	  appId: 'AU8...',
+	  appKey: '4cU...',
+	  serverURLs: 'http' || ' '
+    }
+  </script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+	<body>
+		<!-- Preloader -->
+
+	<div id="preloader">
+		<div class="pre-container">
+			
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+						
+		</div>
+	</div>
+
+
+<!-- header -->
+<header class="fixbackground bg-pan-br">
+	<div class="mask">
+		<!-- motto -->
+		<div class="h-body">	
+			
+				<div class="motto text-shadow-pop-left">
+					<p class="content" id="motto-content">获取中...</p>
+					<p>-<p>
+					<p class="author" id="motto-author">Just a minute...</p>
+				</div>
+			
+		</div>
+		
+		<!-- others: such as time... -->			
+		<div class="h-footer">
+			<a href="javascript:;" id="read-more" class="scroll-down">
+				<span class="icon-anchor1 animation-scroll-down"></span>
+			</a>
+		</div>
+	</div>
+</header>
+
+<div id="navigation-hide">
+	<!-- Progress bar -->
+	<div id="progress-bar"></div>
+
+	<!-- Progress percent -->
+	<div id="progress-percentage"><span>0.0%</span></div>
+
+	<div class="toc-switch"><span class="switch-button">目录</span></div>
+
+	<!-- Page title -->
+	<p>
+		
+			「SSM整合」
+		
+	</p>
+
+	
+	
+
+	<!-- Nav trigger for navigation-H-->
+	<a class="nav-trigger"><span></span></a>
+</div>
+
+<!-- Navigation in div(id="navigation-H") -->
+<nav class="nav-container" id="cd-nav">
+	<div class="nav-header">
+		<span class="logo"> 
+			<img src="/img/logo.png">
+		</span>
+		<a href="javascript:;" class="nav-close"></a>
+	</div>
+	
+	<div class="nav-body">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="https://Whiteboy-DY.github.io" class="menu-item-home" target="_blank">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_blank">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_blank">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_blank">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_blank">关于</a>
+		</li>
+		
+	
+
+	
+		<li class="menu-search">
+			<a href="javascript:;" class="popup-trigger">搜索</a>
+		</li>
+	
+</ul>
+	</div>
+	
+	<div class="nav-footer">
+		<ul id="global-social">
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-github"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-sina-weibo "></span>
+			</a>
+		</li>
+			
+</ul>
+
+	</div>
+</nav>
+			
+		<!--main-->
+		<main>
+			<!--
+	时间：2018-11-17
+	描述：
+		插件名称：katelog.min.js
+		插件作者：KELEN
+		插件来源: https://github.com/KELEN/katelog
+-->
+
+	
+		<div class="layout-toc">
+			<div id="layout-toc">
+				<div class="k-catelog-list" id="catelog-list" data-title="文章目录"></div>
+			</div>
+		</div>
+
+		
+<script src="/plugin/toc/katelog.min.js"></script>
+
+
+		
+	 
+
+<div class="layout-post">
+	<div id="layout-post">
+		<div class="article-title">
+			
+	<a href="/2021/06/24/SSM%E6%95%B4%E5%90%88/" itemprop="url">
+		SSM整合
+	</a>
+
+		</div>
+
+		<div class="article-meta">
+			<span>
+				<i class="icon-calendar1"></i>
+				
+				
+
+
+
+
+	更新于
+
+	<a href="/2021/06/24/SSM%E6%95%B4%E5%90%88/" itemprop="url">
+		<time datetime="2021-06-24T07:42:28.735Z" itemprop="dateUpdated">
+	  		2021-06-24
+	  </time>
+	</a> 
+
+
+
+			</span>
+			<span>
+				
+	<i class="icon-price-tags"></i>
+	
+		<a href="/tags/Spring/" class=" ">
+			Spring
+		</a>
+	
+		<a href="/tags/%E5%90%8E%E7%AB%AF/" class=" ">
+			后端
+		</a>
+	
+		<a href="/tags/SpringMVC/" class=" ">
+			SpringMVC
+		</a>
+	
+		
+			</span>
+			
+			
+
+
+
+		</div>
+
+		<div class="article-content" id="article-content">
+			<div class="toc">
+
+<!-- toc -->
+
+<ul>
+<li><a href="#ssm">SSM</a><ul>
+<li><a href="#1-spring-huan-jing-da-jian">1 Spring环境搭建</a><ul>
+<li><a href="#1-1-chuang-jian-hao-xiang-mu-hou-dao-ru-spring-he-junit-bao">1.1 创建好项目后导入Spring和Junit包</a></li>
+<li><a href="#1-2-spring-he-xin-pei-zhi-wen-jian-applicationcontext-xml">1.2 Spring核心配置文件applicationContext.xml</a></li>
+</ul>
+</li>
+<li><a href="#2-mybatis-huan-jing-da-jian">2 Mybatis环境搭建</a><ul>
+<li><a href="#2-1-shu-ju-ku-da-jian">2.1 数据库搭建</a></li>
+<li><a href="#2-2-dao-ru-mybatis-xiang-guan-jar">2.2 导入Mybatis相关jar</a></li>
+<li><a href="#2-3-bian-xie-mybatis-he-xin-pei-zhi-wen-jian">2.3 编写Mybatis核心配置文件</a></li>
+<li><a href="#2-4-bian-xie-mybatis-gong-ju-lei">2.4 编写Mybatis工具类</a></li>
+<li><a href="#2-5-bian-xie-mapper-jie-kou-lei">2.5 编写Mapper接口类</a></li>
+<li><a href="#2-6-bian-xie-mapper-xml-pei-zhi-wen-jian">2.6 编写Mapper.xml配置文件</a></li>
+<li><a href="#2-7-junit-ce-shi">2.7 Junit测试</a></li>
+</ul>
+</li>
+<li><a href="#3-springmvc-huan-jing-da-jian">3 SpringMVC环境搭建</a><ul>
+<li><a href="#3-1-dao-ru-springmvc-xiang-guan-jar">3.1 导入SpringMVC相关jar</a></li>
+<li><a href="#3-2-pei-zhi-web-xml-ru-guo-shi-maven-gong-cheng-huan-xu-tian-jia-gu-jia-zhi-chi">3.2 配置web.xml（如果是maven工程还需添加骨架支持）</a></li>
+<li><a href="#3-3-bian-xie-springmvc-pei-zhi-wen-jian">3.3 编写SpringMVC配置文件</a></li>
+<li><a href="#3-4-controller-bian-xie">3.4 Controller编写</a></li>
+<li><a href="#3-5-qi-dong-tomcat-jin-xing-ce-shi">3.5 启动Tomcat进行测试</a></li>
+</ul>
+</li>
+<li><a href="#4-tong-yong-xiang-mu-gou-jian-mo-ban">4 通用项目构建模板</a><ul>
+<li><a href="#4-1-pom-xml">4.1 pom.xml</a></li>
+<li><a href="#4-2-mybatis-ceng-bian-xie">4.2 Mybatis层编写</a></li>
+<li><a href="#4-3-spring-ceng-bian-xie">4.3 Spring层编写</a></li>
+<li><a href="#4-4-springmvc-ceng-bian-xie">4.4 SpringMVC层编写</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+</div>
+
+<h1><span id="ssm">SSM</span><a href="#ssm" class="header-anchor">#</a></h1><ul>
+<li><strong>环境</strong></li>
+</ul>
+<ol>
+<li>MySQL7</li>
+<li>Maven3</li>
+<li>IDEA</li>
+<li>Tomcat</li>
+</ol>
+<ul>
+<li><strong>基本架构</strong></li>
+</ul>
+<p><img src="https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2021/03/23/kuangstudy8a2f1815-6b10-4888-b03d-5155f9f474b7.png" alt="img"></p>
+<h2><span id="1-spring-huan-jing-da-jian">1 Spring环境搭建</span><a href="#1-spring-huan-jing-da-jian" class="header-anchor">#</a></h2><h3><span id="1-1-chuang-jian-hao-xiang-mu-hou-dao-ru-spring-he-junit-bao">1.1 创建好项目后导入Spring和Junit包</span><a href="#1-1-chuang-jian-hao-xiang-mu-hou-dao-ru-spring-he-junit-bao" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependencies&gt;        &lt;dependency&gt;            &lt;groupId&gt;org.springframework&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;spring-webmvc&lt;&#x2F;artifactId&gt;            &lt;version&gt;5.2.0.RELEASE&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;    &lt;!--  junit --&gt;        &lt;dependency&gt;            &lt;groupId&gt;junit&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;junit&lt;&#x2F;artifactId&gt;            &lt;version&gt;4.13.1&lt;&#x2F;version&gt;            &lt;scope&gt;test&lt;&#x2F;scope&gt;        &lt;&#x2F;dependency&gt;&lt;&#x2F;dependencies&gt;&lt;!--指定编译时环境为1.8--&gt;    &lt;build&gt;        &lt;plugins&gt;            &lt;plugin&gt;                &lt;artifactId&gt;maven-compiler-plugin&lt;&#x2F;artifactId&gt;                &lt;version&gt;3.1&lt;&#x2F;version&gt;                &lt;configuration&gt;                    &lt;source&gt;1.8&lt;&#x2F;source&gt;                    &lt;target&gt;1.8&lt;&#x2F;target&gt;                &lt;&#x2F;configuration&gt;            &lt;&#x2F;plugin&gt;        &lt;&#x2F;plugins&gt;    &lt;&#x2F;build&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="1-2-spring-he-xin-pei-zhi-wen-jian-applicationcontext-xml">1.2 Spring核心配置文件applicationContext.xml</span><a href="#1-2-spring-he-xin-pei-zhi-wen-jian-applicationcontext-xml" class="header-anchor">#</a></h3><ul>
+<li><strong>创建实体类</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 此处使用lombok懒人工具，建议老老实实alt+ins生成get、set，构造器等@Datapublic class Hello &#123;    private String name;    private int age ;&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>核心配置文件(applicationContext.xml)</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;beans xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&quot;       xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;       xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&#x2F;spring-beans.xsd&quot;&gt;    &lt;bean id&#x3D;&quot;hello&quot; class&#x3D;&quot;priv.zwh.mall.pojo.Hello&quot;&gt;        &lt;!--注入属性，测试是否托管成功--&gt;        &lt;property name&#x3D;&quot;name&quot; value&#x3D;&quot;Spring&quot;&#x2F;&gt;    &lt;&#x2F;bean&gt;&lt;&#x2F;beans&gt;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>测试</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public class TestHello &#123;    @Test    public void test() &#123;        &#x2F;&#x2F; 获取上下文对象        ClassPathXmlApplicationContext context &#x3D; new ClassPathXmlApplicationContext(&quot;applicationContext.xml&quot;);        &#x2F;&#x2F; 从上下文对象中获取对象        Hello hello &#x3D; (Hello) context.getBean(&quot;hello&quot;);        System.out.println(hello.getName());    &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+<h2><span id="2-mybatis-huan-jing-da-jian">2 Mybatis环境搭建</span><a href="#2-mybatis-huan-jing-da-jian" class="header-anchor">#</a></h2><h3><span id="2-1-shu-ju-ku-da-jian">2.1 数据库搭建</span><a href="#2-1-shu-ju-ku-da-jian" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CREATE DATABASE &#96;mybatis&#96;;USE &#96;mybatis&#96;;DROP TABLE IF EXISTS &#96;user&#96;;CREATE TABLE &#96;user&#96; (&#96;id&#96; int(20) NOT NULL,&#96;name&#96; varchar(30) DEFAULT NULL,&#96;pwd&#96; varchar(30) DEFAULT NULL,PRIMARY KEY (&#96;id&#96;)) ENGINE&#x3D;InnoDB DEFAULT CHARSET&#x3D;utf8;insert  into &#96;user&#96;(&#96;id&#96;,&#96;name&#96;,&#96;pwd&#96;) values (1,&#39;狂神&#39;,&#39;123456&#39;),(2,&#39;张三&#39;,&#39;abcdef&#39;),(3,&#39;李四&#39;,&#39;987654&#39;);</span><br></pre></td></tr></table></figure>
+
+<h3><span id="2-2-dao-ru-mybatis-xiang-guan-jar">2.2 导入Mybatis相关jar</span><a href="#2-2-dao-ru-mybatis-xiang-guan-jar" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;   &lt;groupId&gt;org.mybatis&lt;&#x2F;groupId&gt;   &lt;artifactId&gt;mybatis&lt;&#x2F;artifactId&gt;   &lt;version&gt;3.5.2&lt;&#x2F;version&gt;&lt;&#x2F;dependency&gt;&lt;dependency&gt;   &lt;groupId&gt;mysql&lt;&#x2F;groupId&gt;   &lt;artifactId&gt;mysql-connector-java&lt;&#x2F;artifactId&gt;   &lt;version&gt;5.1.47&lt;&#x2F;version&gt;&lt;&#x2F;dependency&gt; &lt;!--静态资源过滤问题(放入build标签中)--&gt;&lt;resources&gt;            &lt;resource&gt;                &lt;directory&gt;src&#x2F;main&#x2F;java&lt;&#x2F;directory&gt;                &lt;includes&gt;                    &lt;include&gt;**&#x2F;*.properties&lt;&#x2F;include&gt;                    &lt;include&gt;**&#x2F;*.xml&lt;&#x2F;include&gt;                &lt;&#x2F;includes&gt;                &lt;filtering&gt;false&lt;&#x2F;filtering&gt;            &lt;&#x2F;resource&gt;            &lt;resource&gt;                &lt;directory&gt;src&#x2F;main&#x2F;resources&lt;&#x2F;directory&gt;                &lt;includes&gt;                    &lt;include&gt;**&#x2F;*.properties&lt;&#x2F;include&gt;                    &lt;include&gt;**&#x2F;*.xml&lt;&#x2F;include&gt;                &lt;&#x2F;includes&gt;                &lt;filtering&gt;false&lt;&#x2F;filtering&gt;            &lt;&#x2F;resource&gt;&lt;&#x2F;resources&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="2-3-bian-xie-mybatis-he-xin-pei-zhi-wen-jian">2.3 编写Mybatis核心配置文件</span><a href="#2-3-bian-xie-mybatis-he-xin-pei-zhi-wen-jian" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot; ?&gt;&lt;!DOCTYPE configuration        PUBLIC &quot;-&#x2F;&#x2F;mybatis.org&#x2F;&#x2F;DTD Config 3.0&#x2F;&#x2F;EN&quot;        &quot;http:&#x2F;&#x2F;mybatis.org&#x2F;dtd&#x2F;mybatis-3-config.dtd&quot;&gt;&lt;configuration&gt;    &lt;!--settings：控制mybatis全局行为--&gt;    &lt;settings&gt;        &lt;!--设置mybatis输出日志--&gt;        &lt;setting name&#x3D;&quot;logImpl&quot; value&#x3D;&quot;STDOUT_LOGGING&quot;&#x2F;&gt;    &lt;&#x2F;settings&gt;    &lt;environments default&#x3D;&quot;mysql&quot;&gt;        &lt;environment id&#x3D;&quot;mysql&quot;&gt;            &lt;transactionManager type&#x3D;&quot;JDBC&quot;&#x2F;&gt;            &lt;dataSource type&#x3D;&quot;POOLED&quot;&gt;                &lt;!--数据库的驱动类名--&gt;                &lt;property name&#x3D;&quot;driver&quot; value&#x3D;&quot;com.mysql.jdbc.Driver&quot;&#x2F;&gt;                &lt;!--连接数据库的url字符串--&gt;                &lt;property name&#x3D;&quot;url&quot;                          value&#x3D;&quot;jdbc:mysql:&#x2F;&#x2F;localhost:3306&#x2F;mybatis?useUnicode&#x3D;true&amp;characterEncoding&#x3D;utf-8&quot;&#x2F;&gt;                &lt;!--访问数据库的用户名--&gt;                &lt;property name&#x3D;&quot;username&quot; value&#x3D;&quot;root&quot;&#x2F;&gt;                &lt;!--密码--&gt;                &lt;property name&#x3D;&quot;password&quot; value&#x3D;&quot;123456&quot;&#x2F;&gt;            &lt;&#x2F;dataSource&gt;        &lt;&#x2F;environment&gt;    &lt;&#x2F;environments&gt;    &lt;!-- sql mapper(sql映射文件)的位置--&gt;    &lt;mappers&gt;        &lt;package name&#x3D;&quot;priv.zwh.mall.dao.test&quot;&#x2F;&gt;    &lt;&#x2F;mappers&gt;&lt;&#x2F;configuration&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="2-4-bian-xie-mybatis-gong-ju-lei">2.4 编写Mybatis工具类</span><a href="#2-4-bian-xie-mybatis-gong-ju-lei" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public class MybatisUtils &#123;   private static SqlSessionFactory sqlSessionFactory;   static &#123;       try &#123;           String resource &#x3D; &quot;mybatis-config.xml&quot;;           &#x2F;&#x2F; 注意导入的是org.apache.ibatis.io下的Resource           InputStream inputStream &#x3D;Resources.getResourceAsStream(resource);           sqlSessionFactory &#x3D; newSqlSessionFactoryBuilder().build(inputStream);      &#125; catch (IOException e) &#123;           e.printStackTrace();      &#125;  &#125;   &#x2F;&#x2F;获取SqlSession连接   public static SqlSession getSession()&#123;       return sqlSessionFactory.openSession();  &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="2-5-bian-xie-mapper-jie-kou-lei">2.5 编写Mapper接口类</span><a href="#2-5-bian-xie-mapper-jie-kou-lei" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public interface UserMapper &#123;   List&lt;User&gt; selectUser();&#125;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="2-6-bian-xie-mapper-xml-pei-zhi-wen-jian">2.6 编写Mapper.xml配置文件</span><a href="#2-6-bian-xie-mapper-xml-pei-zhi-wen-jian" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot; ?&gt;&lt;!DOCTYPE mapper        PUBLIC &quot;-&#x2F;&#x2F;mybatis.org&#x2F;&#x2F;DTD Mapper 3.0&#x2F;&#x2F;EN&quot;        &quot;http:&#x2F;&#x2F;mybatis.org&#x2F;dtd&#x2F;mybatis-3-mapper.dtd&quot;&gt;    &#x2F;&#x2F; 注意namespace全限定类名&lt;mapper namespace&#x3D;&quot;priv.zwh.mall.dao.test.UserMapper&quot;&gt;    &lt;select id&#x3D;&quot;selectUser&quot; resultType&#x3D;&quot;priv.zwh.mall.pojo.User&quot;&gt;        select id,name,pwd from user    &lt;&#x2F;select&gt;&lt;&#x2F;mapper&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="2-7-junit-ce-shi">2.7 Junit测试</span><a href="#2-7-junit-ce-shi" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public class TestUser &#123;   @Test   public void selectUser() &#123;       SqlSession session &#x3D; MybatisUtils.getSession();       &#x2F;&#x2F;方法一:       &#x2F;&#x2F; System.out.println(session.selectList(&quot;priv.zwh.mall.dao.test.UserMapper.selectUser&quot;));       &#x2F;&#x2F;方法二:        UserMapper mapper &#x3D; session.getMapper(UserMapper.class);        List&lt;User&gt; users &#x3D; mapper.selectUser();        for (User user : users) &#123;            System.out.println(user);        &#125;        &#x2F;&#x2F; 一定要记得关闭       session.close();    &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+<h2><span id="3-springmvc-huan-jing-da-jian">3 SpringMVC环境搭建</span><a href="#3-springmvc-huan-jing-da-jian" class="header-anchor">#</a></h2><h3><span id="3-1-dao-ru-springmvc-xiang-guan-jar">3.1 导入SpringMVC相关jar</span><a href="#3-1-dao-ru-springmvc-xiang-guan-jar" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependencies&gt;   &lt;dependency&gt;       &lt;groupId&gt;junit&lt;&#x2F;groupId&gt;       &lt;artifactId&gt;junit&lt;&#x2F;artifactId&gt;       &lt;version&gt;4.12&lt;&#x2F;version&gt;   &lt;&#x2F;dependency&gt;   &lt;dependency&gt;       &lt;groupId&gt;org.springframework&lt;&#x2F;groupId&gt;       &lt;artifactId&gt;spring-webmvc&lt;&#x2F;artifactId&gt;       &lt;version&gt;5.1.9.RELEASE&lt;&#x2F;version&gt;   &lt;&#x2F;dependency&gt;   &lt;dependency&gt;       &lt;groupId&gt;javax.servlet&lt;&#x2F;groupId&gt;       &lt;artifactId&gt;servlet-api&lt;&#x2F;artifactId&gt;       &lt;version&gt;2.5&lt;&#x2F;version&gt;   &lt;&#x2F;dependency&gt;   &lt;dependency&gt;       &lt;groupId&gt;javax.servlet.jsp&lt;&#x2F;groupId&gt;       &lt;artifactId&gt;jsp-api&lt;&#x2F;artifactId&gt;       &lt;version&gt;2.2&lt;&#x2F;version&gt;   &lt;&#x2F;dependency&gt;   &lt;dependency&gt;       &lt;groupId&gt;javax.servlet&lt;&#x2F;groupId&gt;       &lt;artifactId&gt;jstl&lt;&#x2F;artifactId&gt;       &lt;version&gt;1.2&lt;&#x2F;version&gt;   &lt;&#x2F;dependency&gt;&lt;&#x2F;dependencies&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="3-2-pei-zhi-web-xml-ru-guo-shi-maven-gong-cheng-huan-xu-tian-jia-gu-jia-zhi-chi">3.2 配置web.xml（如果是maven工程还需添加骨架支持）</span><a href="#3-2-pei-zhi-web-xml-ru-guo-shi-maven-gong-cheng-huan-xu-tian-jia-gu-jia-zhi-chi" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;web-app xmlns&#x3D;&quot;http:&#x2F;&#x2F;xmlns.jcp.org&#x2F;xml&#x2F;ns&#x2F;javaee&quot;         xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;         xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;xmlns.jcp.org&#x2F;xml&#x2F;ns&#x2F;javaee http:&#x2F;&#x2F;xmlns.jcp.org&#x2F;xml&#x2F;ns&#x2F;javaee&#x2F;web-app_4_0.xsd&quot;         version&#x3D;&quot;4.0&quot;&gt;    &lt;servlet&gt;        &lt;servlet-name&gt;servlet&lt;&#x2F;servlet-name&gt;        &lt;servlet-class&gt;org.springframework.web.servlet.DispatcherServlet&lt;&#x2F;servlet-class&gt;        &lt;!--自定义springmvc读取的配置文件的位置--&gt;        &lt;init-param&gt;            &lt;!--springmvc的配置文件的位置的属性--&gt;            &lt;param-name&gt;contextConfigLocation&lt;&#x2F;param-name&gt;            &lt;!--指定自定义文件的位置--&gt;            &lt;param-value&gt;classpath:springmvc.xml&lt;&#x2F;param-value&gt;        &lt;&#x2F;init-param&gt;        &lt;load-on-startup&gt;1&lt;&#x2F;load-on-startup&gt;    &lt;&#x2F;servlet&gt;    &lt;servlet-mapping&gt;        &lt;servlet-name&gt;servlet&lt;&#x2F;servlet-name&gt;        &lt;url-pattern&gt;*.do&lt;&#x2F;url-pattern&gt;    &lt;&#x2F;servlet-mapping&gt;&lt;&#x2F;web-app&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="3-3-bian-xie-springmvc-pei-zhi-wen-jian">3.3 编写SpringMVC配置文件</span><a href="#3-3-bian-xie-springmvc-pei-zhi-wen-jian" class="header-anchor">#</a></h3><ul>
+<li><strong>方式一</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;beans xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&quot;       xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;       xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans       http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&#x2F;spring-beans.xsd&quot;&gt;        &lt;!--  处理映射器  --&gt;        &lt;bean class&#x3D;&quot;org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping&quot;&gt;&lt;&#x2F;bean&gt;        &lt;!--  处理适配器  --&gt;        &lt;bean class&#x3D;&quot;org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter&quot;&gt;&lt;&#x2F;bean&gt;        &lt;!--    视图解析器 : 模板引擎 Thymeleaf  Freemarker    --&gt;        &lt;bean class&#x3D;&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot; id&#x3D;&quot;internalResourceViewResolver&quot;&gt;            &lt;!--     前缀       --&gt;            &lt;property name&#x3D;&quot;prefix&quot; value&#x3D;&quot;&#x2F;WEB-INF&#x2F;jsp&#x2F;&quot;&gt;&lt;&#x2F;property&gt;            &lt;!--     后缀      --&gt;            &lt;property name&#x3D;&quot;suffix&quot; value&#x3D;&quot;.jsp&quot;&gt;&lt;&#x2F;property&gt;        &lt;&#x2F;bean&gt;        &lt;!-- Bean...   --&gt;         &lt;bean id&#x3D;&quot;&#x2F;hello&quot; class&#x3D;&quot;com.srz.controller.HelloController&quot;&gt;&lt;&#x2F;bean&gt;&lt;&#x2F;beans&gt;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>方式二（常用）</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;beans xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&quot;       xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;       xmlns:context&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context&quot;       xmlns:mvc&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;mvc&quot;       xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&#x2F;spring-beans.xsd http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context https:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context&#x2F;spring-context.xsd http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;mvc https:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;mvc&#x2F;spring-mvc.xsd&quot;&gt;    &lt;!--自动扫描包--&gt;    &lt;context:component-scan base-package&#x3D;&quot;priv.zwh.mall.controller&quot;&#x2F;&gt;    &lt;!--让springMvc不处理静态资源--&gt;    &lt;mvc:default-servlet-handler&#x2F;&gt;    &lt;!--mvc注解驱动--&gt;    &lt;mvc:annotation-driven&#x2F;&gt;    &lt;!--配置视图解析器--&gt;    &lt;bean class&#x3D;&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot; id&#x3D;&quot;internalResourceViewResolver&quot;&gt;        &lt;!--前缀--&gt;        &lt;property name&#x3D;&quot;prefix&quot; value&#x3D;&quot;&#x2F;WEB-INF&#x2F;jsp&#x2F;&quot;&#x2F;&gt;        &lt;!--后缀--&gt;        &lt;property name&#x3D;&quot;suffix&quot; value&#x3D;&quot;.jsp&quot;&#x2F;&gt;    &lt;&#x2F;bean&gt;&lt;&#x2F;beans&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="3-4-controller-bian-xie">3.4 Controller编写</span><a href="#3-4-controller-bian-xie" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@Controllerpublic class HelloController &#123;    @RequestMapping(&quot;&#x2F;first&quot;)    public String hello(Model model) &#123;        &#x2F;&#x2F;封装数据        model.addAttribute(&quot;msg&quot;, &quot;Hello Spring&quot;);        return &quot;hello&quot;; &#x2F;&#x2F;会被视图解析器处理    &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="3-5-qi-dong-tomcat-jin-xing-ce-shi">3.5 启动Tomcat进行测试</span><a href="#3-5-qi-dong-tomcat-jin-xing-ce-shi" class="header-anchor">#</a></h3><ul>
+<li><strong>404问题</strong></li>
+</ul>
+<p><img src="https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2021/03/23/kuangstudyb2cece53-e722-4504-976e-d09d01534e86.png" alt="img"></p>
+<ul>
+<li><strong>解决方法</strong></li>
+</ul>
+<p><img src="https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2021/03/23/kuangstudy7bf89e37-20ea-4268-8728-3440f09a1772.png" alt="img"></p>
+<ul>
+<li><strong>查看效果</strong></li>
+</ul>
+<p><img src="https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2021/03/23/kuangstudy0eaa8962-bb9a-43a2-aa7b-4b850e0facb3.png" alt="img"></p>
+<h2><span id="4-tong-yong-xiang-mu-gou-jian-mo-ban">4 通用项目构建模板</span><a href="#4-tong-yong-xiang-mu-gou-jian-mo-ban" class="header-anchor">#</a></h2><p><img src="https://kuangstudy.oss-cn-beijing.aliyuncs.com/bbs/2021/03/23/kuangstudyf41131e2-8c56-4c11-80b7-baa75ca5dc77.png" alt="img"></p>
+<h3><span id="4-1-pom-xml">4.1 pom.xml</span><a href="#4-1-pom-xml" class="header-anchor">#</a></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;project xmlns&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0&quot;         xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;         xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;maven.apache.org&#x2F;POM&#x2F;4.0.0 http:&#x2F;&#x2F;maven.apache.org&#x2F;xsd&#x2F;maven-4.0.0.xsd&quot;&gt;    &lt;modelVersion&gt;4.0.0&lt;&#x2F;modelVersion&gt;    &lt;groupId&gt;org.example&lt;&#x2F;groupId&gt;    &lt;artifactId&gt;mall&lt;&#x2F;artifactId&gt;    &lt;version&gt;1.0-SNAPSHOT&lt;&#x2F;version&gt;    &lt;!--导入依赖--&gt;    &lt;dependencies&gt;        &lt;!--&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;Spring&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;--&gt;        &lt;!--spring核心依赖--&gt;        &lt;dependency&gt;            &lt;groupId&gt;org.springframework&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;spring-webmvc&lt;&#x2F;artifactId&gt;            &lt;version&gt;5.2.0.RELEASE&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;        &lt;!--  junit --&gt;        &lt;dependency&gt;            &lt;groupId&gt;junit&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;junit&lt;&#x2F;artifactId&gt;            &lt;version&gt;4.13.1&lt;&#x2F;version&gt;            &lt;scope&gt;test&lt;&#x2F;scope&gt;        &lt;&#x2F;dependency&gt;        &lt;!--&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;Mybatis&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;--&gt;        &lt;!--mybatis依赖--&gt;        &lt;dependency&gt;            &lt;groupId&gt;org.mybatis&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;mybatis&lt;&#x2F;artifactId&gt;            &lt;version&gt;3.5.2&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;        &lt;!--mysql驱动--&gt;        &lt;dependency&gt;            &lt;groupId&gt;mysql&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;mysql-connector-java&lt;&#x2F;artifactId&gt;            &lt;version&gt;5.1.47&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;        &lt;!--&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;SpringMVC&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;--&gt;        &lt;!--servlet--&gt;        &lt;dependency&gt;            &lt;groupId&gt;javax.servlet&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;servlet-api&lt;&#x2F;artifactId&gt;            &lt;version&gt;2.5&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;        &lt;!--jsp--&gt;        &lt;dependency&gt;            &lt;groupId&gt;javax.servlet.jsp&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;jsp-api&lt;&#x2F;artifactId&gt;            &lt;version&gt;2.2&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;        &lt;!--jstl--&gt;        &lt;dependency&gt;            &lt;groupId&gt;javax.servlet&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;jstl&lt;&#x2F;artifactId&gt;            &lt;version&gt;1.2&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;        &lt;!-- 数据库连接池 --&gt;        &lt;dependency&gt;            &lt;groupId&gt;com.mchange&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;c3p0&lt;&#x2F;artifactId&gt;            &lt;version&gt;0.9.5.2&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;        &lt;!--jdbc--&gt;        &lt;dependency&gt;            &lt;groupId&gt;org.springframework&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;spring-jdbc&lt;&#x2F;artifactId&gt;            &lt;version&gt;5.1.9.RELEASE&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;        &lt;!--spring整合mybatis包--&gt;        &lt;dependency&gt;            &lt;groupId&gt;org.mybatis&lt;&#x2F;groupId&gt;            &lt;artifactId&gt;mybatis-spring&lt;&#x2F;artifactId&gt;            &lt;version&gt;2.0.4&lt;&#x2F;version&gt;        &lt;&#x2F;dependency&gt;    &lt;&#x2F;dependencies&gt;    &lt;!--指定编译时环境为1.8--&gt;    &lt;build&gt;        &lt;plugins&gt;            &lt;plugin&gt;                &lt;artifactId&gt;maven-compiler-plugin&lt;&#x2F;artifactId&gt;                &lt;version&gt;3.1&lt;&#x2F;version&gt;                &lt;configuration&gt;                    &lt;source&gt;1.8&lt;&#x2F;source&gt;                    &lt;target&gt;1.8&lt;&#x2F;target&gt;                &lt;&#x2F;configuration&gt;            &lt;&#x2F;plugin&gt;        &lt;&#x2F;plugins&gt;        &lt;!--静态资源过滤问题--&gt;        &lt;resources&gt;            &lt;resource&gt;                &lt;directory&gt;src&#x2F;main&#x2F;java&lt;&#x2F;directory&gt;                &lt;includes&gt;                    &lt;include&gt;**&#x2F;*.properties&lt;&#x2F;include&gt;                    &lt;include&gt;**&#x2F;*.xml&lt;&#x2F;include&gt;                &lt;&#x2F;includes&gt;                &lt;filtering&gt;false&lt;&#x2F;filtering&gt;            &lt;&#x2F;resource&gt;            &lt;resource&gt;                &lt;directory&gt;src&#x2F;main&#x2F;resources&lt;&#x2F;directory&gt;                &lt;includes&gt;                    &lt;include&gt;**&#x2F;*.properties&lt;&#x2F;include&gt;                    &lt;include&gt;**&#x2F;*.xml&lt;&#x2F;include&gt;                &lt;&#x2F;includes&gt;                &lt;filtering&gt;false&lt;&#x2F;filtering&gt;            &lt;&#x2F;resource&gt;        &lt;&#x2F;resources&gt;    &lt;&#x2F;build&gt;&lt;&#x2F;project&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="4-2-mybatis-ceng-bian-xie">4.2 Mybatis层编写</span><a href="#4-2-mybatis-ceng-bian-xie" class="header-anchor">#</a></h3><ul>
+<li><strong>log4j配置文件参数（放在resources中）</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#将等级为DEBUG的日志信息输出到console和file这两个目的地，console和file的定义在下面的代码log4j.rootLogger&#x3D;DEBUG,console,file#控制台输出的相关设置log4j.appender.console &#x3D; org.apache.log4j.ConsoleAppenderlog4j.appender.console.Target &#x3D; System.outlog4j.appender.console.Threshold&#x3D;DEBUGlog4j.appender.console.layout &#x3D; org.apache.log4j.PatternLayoutlog4j.appender.console.layout.ConversionPattern&#x3D;[%c]-%m%n#文件输出的相关设置log4j.appender.file &#x3D; org.apache.log4j.RollingFileAppenderlog4j.appender.file.File&#x3D;.&#x2F;log&#x2F;zwh.loglog4j.appender.file.MaxFileSize&#x3D;10mblog4j.appender.file.Threshold&#x3D;DEBUGlog4j.appender.file.layout&#x3D;org.apache.log4j.PatternLayoutlog4j.appender.file.layout.ConversionPattern&#x3D;[%p][%d&#123;yy-MM-dd&#125;][%c]%m%n#日志输出级别log4j.logger.org.mybatis&#x3D;DEBUGlog4j.logger.java.sql&#x3D;DEBUGlog4j.logger.java.sql.Statement&#x3D;DEBUGlog4j.logger.java.sql.ResultSet&#x3D;DEBUGlog4j.logger.java.sql.PreparedStatement&#x3D;DEBUG</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>数据库配置文件编写，database.properties（放在resources中）</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jdbc.driver&#x3D;com.mysql.jdbc.Driverjdbc.url&#x3D;jdbc:mysql:&#x2F;&#x2F;localhost:3306&#x2F;ssmbuild?useUnicode&#x3D;true&amp;characterEncoding&#x3D;utf8jdbc.username&#x3D;rootjdbc.password&#x3D;123456</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>Mybatis核心配置文件，mybatis-config.xml</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot; ?&gt;&lt;!DOCTYPE configuration        PUBLIC &quot;-&#x2F;&#x2F;mybatis.org&#x2F;&#x2F;DTD Config 3.0&#x2F;&#x2F;EN&quot;        &quot;http:&#x2F;&#x2F;mybatis.org&#x2F;dtd&#x2F;mybatis-3-config.dtd&quot;&gt;&lt;configuration&gt;    &lt;!--采用log4j输出日志--&gt;    &lt;settings&gt;        &lt;setting name&#x3D;&quot;logImpl&quot; value&#x3D;&quot;log4j&quot;&#x2F;&gt;    &lt;&#x2F;settings&gt;    &lt;!--起别名--&gt;    &lt;typeAliases&gt;        &lt;package name&#x3D;&quot;priv.zwh.mall.pojo&quot;&#x2F;&gt;    &lt;&#x2F;typeAliases&gt;    &lt;!-- sql mapper(sql映射文件)的位置--&gt;    &lt;mappers&gt;        &lt;mapper class&#x3D;&quot;priv.zwh.mall.dao.BookMapper&quot;&#x2F;&gt;    &lt;&#x2F;mappers&gt;&lt;&#x2F;configuration&gt;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>Mapper.xml编写</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot; ?&gt;&lt;!DOCTYPE mapper       PUBLIC &quot;-&#x2F;&#x2F;mybatis.org&#x2F;&#x2F;DTD Mapper 3.0&#x2F;&#x2F;EN&quot;       &quot;http:&#x2F;&#x2F;mybatis.org&#x2F;dtd&#x2F;mybatis-3-mapper.dtd&quot;&gt;&lt;mapper namespace&#x3D;&quot;com.kuang.dao.XXX&quot;&gt;&lt;&#x2F;mapper&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="4-3-spring-ceng-bian-xie">4.3 Spring层编写</span><a href="#4-3-spring-ceng-bian-xie" class="header-anchor">#</a></h3><ul>
+<li><strong>Spring整合Mybatis，spring-dao.xml</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;beans xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&quot;       xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;       xmlns:context&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context&quot;       xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans       http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&#x2F;spring-beans.xsd       http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context       https:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context&#x2F;spring-context.xsd&quot;&gt;    &lt;!-- 配置整合mybatis --&gt;    &lt;!-- 1.关联数据库文件 --&gt;    &lt;context:property-placeholder location&#x3D;&quot;classpath:database.properties&quot;&#x2F;&gt;    &lt;!-- 2.数据库连接池 --&gt;    &lt;!--数据库连接池        dbcp 半自动化操作 不能自动连接        c3p0 自动化操作（自动的加载配置文件 并且设置到对象里面）    --&gt;    &lt;bean id&#x3D;&quot;dataSource&quot; class&#x3D;&quot;com.mchange.v2.c3p0.ComboPooledDataSource&quot;&gt;        &lt;!-- 配置连接池属性 --&gt;        &lt;property name&#x3D;&quot;driverClass&quot; value&#x3D;&quot;$&#123;jdbc.driver&#125;&quot;&#x2F;&gt;        &lt;property name&#x3D;&quot;jdbcUrl&quot; value&#x3D;&quot;$&#123;jdbc.url&#125;&quot;&#x2F;&gt;        &lt;property name&#x3D;&quot;user&quot; value&#x3D;&quot;$&#123;jdbc.username&#125;&quot;&#x2F;&gt;        &lt;property name&#x3D;&quot;password&quot; value&#x3D;&quot;$&#123;jdbc.password&#125;&quot;&#x2F;&gt;        &lt;!-- c3p0连接池的私有属性 --&gt;        &lt;property name&#x3D;&quot;maxPoolSize&quot; value&#x3D;&quot;30&quot;&#x2F;&gt;        &lt;property name&#x3D;&quot;minPoolSize&quot; value&#x3D;&quot;10&quot;&#x2F;&gt;        &lt;!-- 关闭连接后不自动commit --&gt;        &lt;property name&#x3D;&quot;autoCommitOnClose&quot; value&#x3D;&quot;false&quot;&#x2F;&gt;        &lt;!-- 获取连接超时时间 --&gt;        &lt;property name&#x3D;&quot;checkoutTimeout&quot; value&#x3D;&quot;10000&quot;&#x2F;&gt;        &lt;!-- 当获取连接失败重试次数 --&gt;        &lt;property name&#x3D;&quot;acquireRetryAttempts&quot; value&#x3D;&quot;2&quot;&#x2F;&gt;    &lt;&#x2F;bean&gt;    &lt;!-- 3.配置SqlSessionFactory对象 --&gt;    &lt;bean id&#x3D;&quot;sqlSessionFactory&quot; class&#x3D;&quot;org.mybatis.spring.SqlSessionFactoryBean&quot;&gt;        &lt;!-- 注入数据库连接池 --&gt;        &lt;property name&#x3D;&quot;dataSource&quot; ref&#x3D;&quot;dataSource&quot;&#x2F;&gt;        &lt;!-- 配置MyBaties全局配置文件:mybatis-config.xml --&gt;        &lt;property name&#x3D;&quot;configLocation&quot; value&#x3D;&quot;classpath:mybatis-config.xml&quot;&#x2F;&gt;    &lt;&#x2F;bean&gt;    &lt;!-- 4.配置扫描Dao接口包，动态实现Dao接口注入到spring容器中 --&gt;    &lt;!--解释 ：https:&#x2F;&#x2F;www.cnblogs.com&#x2F;jpfss&#x2F;p&#x2F;7799806.html--&gt;    &lt;bean class&#x3D;&quot;org.mybatis.spring.mapper.MapperScannerConfigurer&quot;&gt;        &lt;!-- 注入sqlSessionFactory --&gt;        &lt;property name&#x3D;&quot;sqlSessionFactoryBeanName&quot; value&#x3D;&quot;sqlSessionFactory&quot;&#x2F;&gt;        &lt;!-- 给出需要扫描Dao接口包 --&gt;        &lt;property name&#x3D;&quot;basePackage&quot; value&#x3D;&quot;priv.zwh.mall.(dao)&quot;&#x2F;&gt;    &lt;&#x2F;bean&gt;&lt;&#x2F;beans&gt;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>Spring整合service层，spring-service</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;beans xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&quot;       xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;       xmlns:context&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context&quot;       xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&#x2F;spring-beans.xsd http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context https:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context&#x2F;spring-context.xsd&quot;&gt;    &lt;!-- 扫描service相关的bean --&gt;    &lt;context:component-scan base-package&#x3D;&quot;priv.zwh.mall.(service)&quot;&#x2F;&gt;    &lt;!--BookServiceImpl注入到IOC容器中--&gt;    &lt;bean id&#x3D;&quot;bookServiceImpl&quot; class&#x3D;&quot;priv.zwh.mall.service.impl.(BookServiceImpl)&quot;&gt;        &lt;property name&#x3D;&quot;bookMapper&quot; ref&#x3D;&quot;bookMapper&quot;&#x2F;&gt;    &lt;&#x2F;bean&gt;    &lt;!-- 配置事务管理器 --&gt;    &lt;bean id&#x3D;&quot;transactionManager&quot; class&#x3D;&quot;org.springframework.jdbc.datasource.DataSourceTransactionManager&quot;&gt;        &lt;!-- 注入数据库连接池 --&gt;        &lt;property name&#x3D;&quot;dataSource&quot; ref&#x3D;&quot;dataSource&quot;&#x2F;&gt;    &lt;&#x2F;bean&gt;&lt;&#x2F;beans&gt;</span><br></pre></td></tr></table></figure>
+
+<h3><span id="4-4-springmvc-ceng-bian-xie">4.4 SpringMVC层编写</span><a href="#4-4-springmvc-ceng-bian-xie" class="header-anchor">#</a></h3><ul>
+<li><strong>web.xml</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;web-app xmlns&#x3D;&quot;http:&#x2F;&#x2F;xmlns.jcp.org&#x2F;xml&#x2F;ns&#x2F;javaee&quot;        xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;        xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;xmlns.jcp.org&#x2F;xml&#x2F;ns&#x2F;javaee http:&#x2F;&#x2F;xmlns.jcp.org&#x2F;xml&#x2F;ns&#x2F;javaee&#x2F;web-app_4_0.xsd&quot;        version&#x3D;&quot;4.0&quot;&gt;   &lt;!--DispatcherServlet--&gt;   &lt;servlet&gt;       &lt;servlet-name&gt;DispatcherServlet&lt;&#x2F;servlet-name&gt;       &lt;servlet-class&gt;org.springframework.web.servlet.DispatcherServlet&lt;&#x2F;servlet-class&gt;       &lt;init-param&gt;           &lt;param-name&gt;contextConfigLocation&lt;&#x2F;param-name&gt;           &lt;!--一定要注意:我们这里加载的是总的配置文件，之前被这里坑了！--&gt;             &lt;param-value&gt;classpath:applicationContext.xml&lt;&#x2F;param-value&gt;       &lt;&#x2F;init-param&gt;       &lt;load-on-startup&gt;1&lt;&#x2F;load-on-startup&gt;   &lt;&#x2F;servlet&gt;   &lt;servlet-mapping&gt;       &lt;servlet-name&gt;DispatcherServlet&lt;&#x2F;servlet-name&gt;       &lt;url-pattern&gt;&#x2F;&lt;&#x2F;url-pattern&gt;   &lt;&#x2F;servlet-mapping&gt;   &lt;!--encodingFilter--&gt;   &lt;filter&gt;       &lt;filter-name&gt;encodingFilter&lt;&#x2F;filter-name&gt;       &lt;filter-class&gt;          org.springframework.web.filter.CharacterEncodingFilter       &lt;&#x2F;filter-class&gt;       &lt;init-param&gt;           &lt;param-name&gt;encoding&lt;&#x2F;param-name&gt;           &lt;param-value&gt;utf-8&lt;&#x2F;param-value&gt;       &lt;&#x2F;init-param&gt;   &lt;&#x2F;filter&gt;   &lt;filter-mapping&gt;       &lt;filter-name&gt;encodingFilter&lt;&#x2F;filter-name&gt;       &lt;url-pattern&gt;&#x2F;*&lt;&#x2F;url-pattern&gt;   &lt;&#x2F;filter-mapping&gt;   &lt;!--Session过期时间--&gt;   &lt;session-config&gt;       &lt;session-timeout&gt;15&lt;&#x2F;session-timeout&gt;   &lt;&#x2F;session-config&gt;&lt;&#x2F;web-app&gt;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>spring-mvc.xml</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;beans xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&quot;      xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;     xmlns:context&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context&quot;      xmlns:mvc&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;mvc&quot;     xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans   http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&#x2F;spring-beans.xsd   http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context   http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;context&#x2F;spring-context.xsd   http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;mvc   https:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;mvc&#x2F;spring-mvc.xsd&quot;&gt;    &lt;!--1、开启SpringMVC注解驱动--&gt;    &lt;mvc:annotation-driven&#x2F;&gt;    &lt;!--2、静态资源过滤--&gt;    &lt;mvc:default-servlet-handler&#x2F;&gt;    &lt;!--3、扫描包--&gt;    &lt;context:component-scan base-package&#x3D;&quot;priv.zwh.mall.controller&quot;&#x2F;&gt;    &lt;!--4、视图解析器--&gt;    &lt;bean id&#x3D;&quot;viewResolver&quot; class&#x3D;&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;&gt;        &lt;!--前缀--&gt;        &lt;property name&#x3D;&quot;prefix&quot; value&#x3D;&quot;&#x2F;WEB-INF&#x2F;jsp&#x2F;&quot;&#x2F;&gt;        &lt;!--后缀--&gt;        &lt;property name&#x3D;&quot;suffix&quot; value&#x3D;&quot;.jsp&quot;&#x2F;&gt;    &lt;&#x2F;bean&gt;&lt;&#x2F;beans&gt;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>Spring配置整合文件，applicationContext.xml</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;&lt;beans xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&quot;      xmlns:xsi&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2001&#x2F;XMLSchema-instance&quot;     xsi:schemaLocation&#x3D;&quot;http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans       http:&#x2F;&#x2F;www.springframework.org&#x2F;schema&#x2F;beans&#x2F;spring-beans.xsd&quot;&gt;   &lt;import resource&#x3D;&quot;spring-dao.xml&quot;&#x2F;&gt;   &lt;import resource&#x3D;&quot;spring-service.xml&quot;&#x2F;&gt;   &lt;import resource&#x3D;&quot;springmvc-config.xml&quot;&#x2F;&gt;&lt;&#x2F;beans&gt;</span><br></pre></td></tr></table></figure>	
+		</div>
+		
+		<div id="current-post-cover" data-scr="/img%5Ccart_cover1.jpg"></div>
+
+		<!-- relate post, comment...-->
+		<div class="investment-container">
+			<div class="investment-header">
+				<div class="investment-title-1">
+					<div class="on">相关文章</div>
+					<div>评论</div>
+					<div>分享</div>
+				</div>
+				<div class="investment-title-2">	            
+					
+	<span>
+		<a id="totop-post-page">返回顶部</a>
+		
+			<a href="/2021/06/24/SpringMVC%E7%9F%A5%E8%AF%86%E7%82%B9/" title="SpringMVC知识点" rel="prev">
+				&laquo;上一篇
+			</a>
+		
+		
+			<a href="/2021/06/02/Spring%E7%9F%A5%E8%AF%86%E7%82%B9/" title="Spring知识点" rel="next">
+				下一篇&raquo;
+			</a>
+			
+	</span>
+
+
+      		
+				</div>	
+			</div>
+			
+			<div class="investment-content">
+				<div class="investment-content-list">
+					
+
+<div class="relate-post">
+	
+		<ul>
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2021/06/24/Mybatis%E7%9F%A5%E8%AF%86%E7%82%B9/" title="Mybatis知识点">
+								Mybatis知识点			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								六月 24日, 2021				
+							</p>
+							<p class="relate-post-content">
+								
+
+
+
+
+MyBatis
+配置解析
+1.核心配置
+2.环境配置（environments）
+3.属性(properties)
+4.类型别名（typeAliases）
+5.映射器（mappers）
+6.作用域（Scope）和生命周期
+
+...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2021/06/24/Mybatis%E7%9F%A5%E8%AF%86%E7%82%B9/" title="Mybatis知识点">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="img\cart_cover1.jpg" alt="Mybatis知识点"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2021/06/24/SpringMVC%E7%9F%A5%E8%AF%86%E7%82%B9/" title="SpringMVC知识点">
+								SpringMVC知识点			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								六月 24日, 2021				
+							</p>
+							<p class="relate-post-content">
+								
+
+
+
+
+按配置文件分类
+pom.xml
+web.xml
+springmvc.xml
+头部
+地基
+加强
+
+
+
+
+不常用注解
+@RequestParam
+@RequestBody
+@PathVariable
+@RequestHeader...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2021/06/24/SpringMVC%E7%9F%A5%E8%AF%86%E7%82%B9/" title="SpringMVC知识点">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="img\cart_cover1.jpg" alt="SpringMVC知识点"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2021/06/02/Spring%E7%9F%A5%E8%AF%86%E7%82%B9/" title="Spring知识点">
+								Spring知识点			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								六月 2日, 2021				
+							</p>
+							<p class="relate-post-content">
+								
+
+
+
+
+前言
+一、spring
+1.spring目的
+2.spring是什么
+3.spring组成
+4.spring配置
+
+
+二、IOC
+1.IOC的本质
+2.IOC创建对象的方式
+
+
+三、DI
+1.依赖注入的几种方式
+2.bean...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2021/06/02/Spring%E7%9F%A5%E8%AF%86%E7%82%B9/" title="Spring知识点">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="img\cart_cover1.jpg" alt="Spring知识点"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2021/04/29/Vue%E7%9F%A5%E8%AF%86%E7%82%B9/" title="Vue知识点">
+								Vue知识点			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								四月 29日, 2021				
+							</p>
+							<p class="relate-post-content">
+								
+
+
+
+
+
+
+
+
+
+
+
+什么是Vue#
+什么是: 基于MVVM设计模式的渐进式的纯前端js框架(1). MVVM?(2). 渐进式: 不要求整个项目都用vue做，可以轻松和别的技术混搭，且会多少就可以先用多少！(3). 纯前端js框架...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2021/04/29/Vue%E7%9F%A5%E8%AF%86%E7%82%B9/" title="Vue知识点">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="img\cart_cover1.jpg" alt="Vue知识点"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2021/04/23/hello-world/" title="Hello World">
+								Hello World			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								四月 23日, 2021				
+							</p>
+							<p class="relate-post-content">
+								你好呀！欢迎
+
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2021/04/23/hello-world/" title="Hello World">				
+								
+								<img class="lazy" src="/img/lazy.gif" data-src="/img/cart_cover1.jpg" alt="Hello World"/>
+							</a>
+						</div>
+					</li>												
+			
+		</ul>
+	
+</div>	
+				</div>
+				<div class="investment-content-list">
+					<div class="layout-comment">
+
+	
+		<div class="config-info">
+			Please check the parameter of <b>comment</b> in config.yml of hexo-theme-Annie!
+		</div>	
+	
+
+</div>
+				</div>
+				<div class="investment-content-list">
+					<div class="layout-share">
+	
+	
+
+		
+			
+			<!-- socialShare share -->
+			<div class="social-share"></div>
+
+<!--  css & js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+			
+		
+		
+	
+</div>
+
+
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<!-- show math formula -->
+
+
+
+	 
+	
+<script src="/plugin/clipboard/clipboard.js"></script>
+
+	<script>
+		// Copy code !
+	    function preprocessing() {
+	        $("#article-content .highlight").each(function() {
+	            $(this).wrap('<div id="post-code"></div>');
+	        })
+
+	        $("#article-content #post-code").each(function() {
+	            $(this).prepend('<nav class="copy-nav"><span><i class="code-language"></i></span></nav>');
+	        })
+
+	        $("#article-content .copy-nav").each(function() {
+	            let languageClass = $(this).next().attr('class'),
+	                language = ((languageClass.length > 9) && (languageClass != null)) ? languageClass.substr(10) : "none"; //why 9? Need to check language?
+
+	            $(this).find('.code-language').text(language);
+	            $(this).append('<span class="copy-btn icon-paste"></span>');
+	        });
+	    }
+
+		function copy() {
+		    $('#article-content #post-code').each(function(i) {
+		        let codeCopyId = 'codeCopy-' + i;
+
+		        let codeNode = $(this).find('.code'),
+		            copyButton = $(this).find('.copy-btn');
+
+		        codeNode.attr('id', codeCopyId);
+		        copyButton.attr('data-clipboard-target-id', codeCopyId);
+		    })
+   
+			let clipboard = new ClipboardJS('.copy-btn', {
+					target: function(trigger) {
+						return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+					}
+		      	});
+
+			//pure js
+			function showTooltip(elem, msg) {		   
+				elem.setAttribute('aria-label', msg);
+				elem.setAttribute('class', 'copy-btn icon-clipboard1');
+				setTimeout(function() {
+					elem.setAttribute('class', 'copy-btn icon-paste');
+				}, 2000);
+			}
+
+			clipboard.on('success', function(e) {
+			    e.clearSelection();
+			    console.info('Action:', e.action);		   
+			    console.info('Trigger:', e.trigger);
+			    showTooltip(e.trigger, 'Copied!');   
+			});
+			
+			clipboard.on('error', function(e) {
+			    console.error('Action:', e.action);
+			    console.error('Trigger:', e.trigger);
+			});
+		}
+		
+		(function copyCode(){
+			if ($('.layout-post').length) {
+			    preprocessing();
+			    copy();
+			} 
+		})();
+	</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/plugin/fancybox/jquery.fancybox.css">
+
+
+<script src="/plugin/fancybox/jquery.fancybox.js"></script>
+
+
+<script type="text/javascript">
+	(function gallerySet(){
+		let titleID = $('.article-title a'),
+			imageID = $('.article-content img'),
+			videoID = $('.article-content video');
+		
+		let postTitle = titleID.text() ? titleID.text() : "No post title!";
+		
+		imageID.each(function() {
+			let imgPath = $(this).attr('src'),
+				imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
+		
+			//给每个匹配的<img>元素打包, 即添加父元素<a>
+			$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' + postTitle + ' 》' + imgTitle + '"href="' + imgPath + '"> </a>');
+		});
+		
+		videoID.each(function() {
+			let videoPath = $(this).attr('src');
+		
+			//给每个匹配的<img>元素打包, 即添加父元素<a>
+			$(this).wrap('<a data-fancybox href=" ' + videoPath + ' "> </a>');
+		});
+		
+		//TODO：支持html5 video
+
+		if($('#layout-post').length) {
+			$('[data-fancybox="gallery"]').fancybox({
+				loop: true,
+				buttons: [
+					"zoom",
+					"share",
+					"slideShow",
+					"fullScreen",
+					//"download",
+					"thumbs",
+					"close"
+				],
+				protect: true
+			});
+		}
+	})();
+</script>
+		</main>
+
+		<!--footer-->
+		<footer>
+	<div id="navigation-show">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="https://Whiteboy-DY.github.io" class="menu-item-home" target="_blank">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_blank">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_blank">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_blank">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_blank">关于</a>
+		</li>
+		
+	
+
+	
+		<li class="menu-search">
+			<a href="javascript:;" class="popup-trigger">搜索</a>
+		</li>
+	
+</ul>
+	</div>
+
+	<div class="copyright">
+		<p>
+			 
+				&copy;2021, content by Sariay. All Rights Reserved.
+			
+			
+				<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.
+			
+		</p>
+		<p>
+			
+
+	<!-- busuanzi -->
+	<!-- busuanzi -->
+
+
+
+			<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a> 
+			<a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a>				
+		</p>
+	</div>		
+</footer>
+		
+	<!-- Local or hitokoto! -->
+
+	
+<script src="/plugin/motto/motto.js"></script>
+
+	
+	<script type="text/javascript">
+		(function motto(){
+			let mottoText = getMingYanContent().split('</br> - </br>'),
+			
+			mottoTextContent = mottoText[0]?mottoText[0]:'请刷新...',
+			
+			mottoTextFrom = mottoText[1]?mottoText[1]:'one/一个';
+			
+			mottoTextContent = mottoTextContent.trim().substring(0, 100);
+		
+			$("#motto-content").html( mottoTextContent);
+			$("#motto-author").html( mottoTextFrom  );
+		})();	
+	</script>	
+
+
+
+<!-- love effect -->
+
+	
+<script src="/plugin/love/love.js"></script>
+
+
+
+<!-- back to top -->
+
+	<div id="totop">
+	<span class="icon-circle-up"></span>
+</div>
+
+
+
+<!-- site analysis -->
+
+
+	<!-- site-analysis -->
+	
+	
+	
+	
+	
+ 
+
+<!-- leancloud -->
+
+
+	<!-- leancloud -->
+	<!--
+	时间：2018-11-27
+	描述：
+		文章访问量：visitors
+		文章喜欢量：likes	
+		文章排行榜：topNPost
+		其他得说明：
+			01-Cookie相关的函数 
+				https://blog.csdn.net/somehow1002/article/details/78511541（Author：somehow1002）
+			02-visitors相关的函数 
+				https://blog.csdn.net/u013553529/article/details/63357382（Author：爱博客大伯）
+				https://notes.doublemine.me/2015-10-21-为NexT主题添加文章阅读量统计功能.html（Author：夏末）
+			03-topNPost相关的函数
+				https://hoxis.github.io/hexo-next-read-rank.html（Author：hoxis）
+			04-likes相关的函数，
+				参考了01 & 02进行简单的设计与实现
+-->
+
+
+	
+
+  
+
+	<!--
+	时间：2018-10-3
+	描述：
+		插件名称：hexo-generator-search-zip
+		插件来源: https://github.com/SuperKieran/hexo-generator-search-zip
+		代码参考：https://github.com/SuperKieran/TKL/blob/master/layout/_partial/search.ejs(Include: js & css)	
+-->
+<div class="popup search-popup local-search-popup scrollbar" >
+	<div class="local-search-container">
+		<span class="popup-btn-close">
+      		ESC
+   		</span>
+		<div class="local-search-header">
+			<div class="input-prompt">				
+			</div>
+			<input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
+		</div>
+		<div class="local-search-body">
+			<div id="local-search-output"></div>
+		</div>
+		<div class="local-search-footer">
+			<div class="topN-post">				
+				
+								
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="/plugin/search/ziploader.js"></script>
+<script src="/js/search.js"></script>
+
+
+<script type="text/javascript">
+	var search_path = 'search.json',
+		zip_Path = '/search.zip',
+		version_Path = '/searchVersion.txt',
+		input_Trigger = 'auto',
+		top_N = '2';
+
+	themeLocalSearch({
+		search_path, 
+		zip_Path, 
+		version_Path, 
+		input_Trigger, 
+		top_N
+	});
+</script>
+
+
+
+<script src="/plugin/chinese/chinese.js"></script>
+<script src="/plugin/imagelazyloader/yall.min.js"></script>
+<script src="/plugin/imageloaded/imagesloaded.pkgd.min.js"></script>
+<script src="/plugin/nicescroll/jquery.nicescroll.js"></script>
+<script src="/plugin/resizediv/resizediv.js"></script>
+<script src="/js/main.js"></script>
+
+	</body>	
+</html>
